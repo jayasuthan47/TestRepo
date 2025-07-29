@@ -12,8 +12,8 @@ var j = 10;
 
 
 function execute(a, b, angle) {
-    if(angle) {
-    return a + b + angle;
+    if(angle && angle > 0) {
+      return a + b + angle;
     }
     return a + b;
 }
