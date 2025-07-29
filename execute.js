@@ -12,7 +12,10 @@ var j = 10;
 
 
 function execute(a, b, angle) {
+    if(angle) {
     return a + b + angle;
+    }
+    return a + b;
 }
 
 console.log(execute(a, b, c, d, e, f, g, h, i, j));
